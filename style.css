@@ -26,6 +26,9 @@ body {
 	padding: 25px 0;
 	background-color:rgba(225,225,225,0.75);
 }
+img {
+	margin-top: 10px;
+}
 .menu li {
 	float: left;
 	width: 25%;
@@ -47,4 +50,12 @@ body {
 .menu li a:hover {
 	background: #2c71b8;
 	color: white;
+}
+input {
+	border: 1px solid #2c71b8;
+	background-color:rgba(225,225,225,0.75);
+	margin:5px 0 0 21px;
+	width: 200px;
+	padding-left: 20px;
+	height: 40px;
 }
