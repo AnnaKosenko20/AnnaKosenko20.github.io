@@ -19,3 +19,7 @@ body {
 .col-md-6 {
 	width: 50%;
 }
+.header {
+	padding: 25px 0;
+	background-color:rgba(225,225,225,0.75);
+}
