@@ -53,6 +53,10 @@ img {
 	color: #2c71b8;
 	font-size: 21px;
 }
+.menu li:hover {
+	background: #2c71b8;
+	color: white;
+}
 .menu li a:hover {
 	background: #2c71b8;
 	color: white;
@@ -90,6 +94,15 @@ display: block;
 ul.menu > li:hover > ul.submenu {
 	display: block;
 }
+.menu li a:first-child:nth-last-child(2):before { 
+  content: ""; 
+  position: absolute; 
+  height: 0; 
+  width: 0; 
+  border: 5px solid transparent; 
+  top: 50% ;
+  right:5px;  
+ }
  
 form {
   position: relative;
