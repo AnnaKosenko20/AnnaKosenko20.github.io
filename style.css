@@ -42,6 +42,9 @@ img {
 	text-align: center;
 
 }
+.menu li:nth-child(2) {
+	position: relative;
+}
 .menu li:last-child {
 	border-right: 1px solid #2c71b8;
 }
@@ -65,6 +68,8 @@ img {
 float: none;
 width: 293px;
 display: block;
+
+
 }
 .submenu li a:hover {
 	background-color: white;
@@ -75,6 +80,8 @@ display: block;
 	display: none;
 	position: absolute;
 	background-color: #2c71b8;
+	margin-left: -1px;
+
 }
 
 .submenu li a {
@@ -88,6 +95,7 @@ display: block;
 }
 .menu a:hover {
 	text-decoration: none;
+
 
 }
 
@@ -137,4 +145,17 @@ button {
 	height: 40px;
 	padding-left: 10px;
 	margin-left: 30px;
+	position: relative;
+}
+.number {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #2c71b8;
+	border-radius: 50px;
+	text-align: center;
+	color: white;
+	margin-left:-20px;
+	margin-top:-40px;
+	padding-top: 2px;
 }
