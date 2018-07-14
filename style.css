@@ -22,12 +22,10 @@ body {
 .col-md-6 {
 	width: 50%;
 }
-.col-md-8 {
-	width: 90%;
+.col-md-9 {
+	width: 75%;
 }
-.col-md-4 {
-	width: 10%;
-}
+
 .header {
 	padding: 25px 0;
 	background-color:rgba(225,225,225,0.75);
@@ -59,7 +57,7 @@ img {
 .menu li > a:hover, .menu li:hover > a{
         background: #2c71b8;
         color: white;
- }
+}
 .submenu li {
 float: none;
 width: 293px;
@@ -123,7 +121,7 @@ input::placeholder {
 	color: #2c71b8;
 	font-size: 17px;
 }
-}
+
 .icon {
 	background: white;
 	background-image: url(img/icon.1.png) no-repeat;
