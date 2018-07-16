@@ -12,7 +12,10 @@ body {
 	width: 1170px;
 	margin: 0 auto;
 }
-.container1, .container2 {
+.container1 {
+	height: 855px;
+}
+.container2, .container3 {
 	height: 670px;
 }
 .row:after {
@@ -155,6 +158,23 @@ input::placeholder {
 }
 .main {
 	margin-top: 400px;
+}
+.link1 {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	margin-top: 30px;
+}
+.link2 {
+	color: white;
+	font-size: 14px;
+	margin-top: 30px;
+}
+.title {
+	color: white;
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 60px;
 }
 .item1 {
 	background-color:rgba(225,225,225,0.75);
