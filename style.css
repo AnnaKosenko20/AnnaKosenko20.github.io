@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i');
+
 *{ box-sizing: border-box; 
 }
 
 body {
 	background-image: url(img/patt.png);
+	font-family: Roboto, sans-serif;
+	font-weight: lighter;
 }
-.container {
+[class*="container"] {
 	width: 1170px;
 	margin: 0 auto;
+}
+.container1, .container2 {
+	height: 670px;
 }
 .row:after {
 	content: "";
 	clear: both;
 	display: block;
 }
-[class*="col-"] {
+[class*="col-md"] {
 	float: left;
 }
 .col-md-3 {
@@ -25,12 +32,11 @@ body {
 .col-md-9 {
 	width: 75%;
 }
-
 .header {
 	padding: 25px 0;
 	background-color:rgba(225,225,225,0.75);
 }
-img {
+.mainimg {
 	margin-top: 10px;
 }
 .menu li {
@@ -60,7 +66,7 @@ img {
 }
 .submenu li {
 float: none;
-width: 293px;
+width: 294px;
 display: block;
 }
 
@@ -94,14 +100,14 @@ form {
   position: relative;
   width: 200px;
   border: 1px solid #2c71b8;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 input {
   border: none;
   width: 100%;
   height: 40px;
-  background-color:rgba(225,225,225,0.75);
+  background-color:rgba(225,225,225,0);
   padding-left: 20px;
 }
 button {
@@ -114,12 +120,12 @@ button {
   background-color: #2c71b8;
 }
 .img {
-	margin-top: -9px;
+	padding-top: -9px;
 }
 
 input::placeholder {
 	color: #2c71b8;
-	font-size: 17px;
+	font-size: 21px;
 }
 
 .icon {
@@ -128,8 +134,11 @@ input::placeholder {
 	width: 40px;
 	height: 40px;
 	padding-left: 10px;
-	margin-left: 30px;
+	margin-left: 10px;
 	position: relative;
+}
+.box {
+	padding-top: 10px;
 }
 .number {
 	position: absolute;
@@ -139,7 +148,158 @@ input::placeholder {
 	border-radius: 50px;
 	text-align: center;
 	color: white;
+	font-size:12px;
 	margin-left:-20px;
 	margin-top:-40px;
-	padding-top: 2px;
+	padding-top: 4px;
+}
+.main {
+	margin-top: 400px;
+}
+.item1 {
+	background-color:rgba(225,225,225,0.75);
+	height: 180px;
+	width: 270px;
+	position: relative;
+	border:1px solid white;
+	position: relative;
+}
+.center-img {
+	text-align: center;
+	padding-top: 40px;
+}
+.center-img2 {
+	text-align: center;
+	padding-top: 46px;
+}
+.center-img3 {
+	text-align: center;
+	padding-top: 28px;
+}
+.center-img4 {
+    text-align: center;
+	padding-top: 68px;
+}
+.center-img5 {
+    text-align: center;
+	padding-top: 29px;
+}
+.icon1 {
+	width:30px;
+	height:30px;
+	background-color:rgba(225,225,225,0);
+	border: 1px solid #2c71b8;
+	position: absolute;
+	margin-left: 231px;
+	margin-top: -95px;
+}
+.icon2 {
+	width:30px;
+	height:30px;
+	background-color:rgba(225,225,225,0);
+	border: 1px solid #2c71b8;
+	position: absolute;
+	margin-left: 231px;
+	margin-top: -135px;	
+}
+.icon3 {
+	width:30px;
+	height:30px;
+	background-color:#2c71b8;
+	border: 1px solid #2c71b8;
+	position: absolute;
+	margin-left: 231px;
+	margin-top: -95px;
+}
+.icon4 {
+	width:30px;
+	height:30px;
+	background-color:#2c71b8;
+	border: 1px solid #2c71b8;
+	position: absolute;
+	margin-left: 231px;
+	margin-top: -135px;	
+}
+.imgin {
+	padding-top: 6px;
+	padding-left: 5px;	
+}
+.imgin2 {
+	padding-top: 5px;
+	padding-left: 4px;
+}
+.item2 {
+	width:270px;
+	height:470px;
+	background-color:rgba(44, 113, 184, 0.75);
+	border: 1px solid white;
+	color: white;
+	font-size: 21px;
+	padding: 15px 0px 0px 20px;
+	margin-top: 24px;
+	position: absolute;
+	margin-left: -1px;
+
+}
+p {
+	padding-bottom: 10px;
+}
+.p1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.text {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.text2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 48px;
+	padding-left: 0;
+	letter-spacing: 1px;
+	padding: 10px 0 10px 0;
+}
+.uptext {
+	vertical-align: super;
+	font-size: 24px;
+}
+.form2 {
+	margin-top: 5px;
+}
+.button2 {
+	width: 210px;
+	height: 50px;
+	line-height: 50px;
+	border:1px solid white;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 21px;
+}
+.form3 {
+	margin-top: 40px;
+}
+.button3 {
+	width: 210px;
+	height: 50px;
+	line-height: 50px;
+	background-color:rgba(102, 153, 204, 0.75);
+	border:1px solid white;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 21px;
+}
+
+.footer {
+    padding: 25px 0;	
+    background-color:rgba(225,225,225,0.75);
+}
+.footertext {
+	text-align: center;
+	font-size: 21px;
+	color: #3366cc;
 }
